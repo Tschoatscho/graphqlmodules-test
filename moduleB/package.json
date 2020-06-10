@@ -1,0 +1,32 @@
+{
+  "name": "@graphqlmodules-test/module-b",
+  "version": "1.0.0",
+  "description": "Test skeleton for graphql-modules, module B",
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Gio Kettl",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "prebuild": "yarn run generate-types",
+    "build": "./node_modules/.bin/tsc",
+    "generate-types": "graphql-codegen --config codegen.yml"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.15.0",
+    "@graphql-codegen/typescript": "^1.15.0",
+    "@graphql-codegen/typescript-resolvers": "^1.15.0",
+    "@graphql-modules/cli": "^0.7.17",
+    "@graphql-modules/doctor": "^0.7.17",
+    "ts-node": "^8.10.2"
+  },
+  "dependencies": {
+    "@graphql-modules/core": "^0.7.17",
+    "@graphql-tools/graphql-file-loader": "^6.0.8",
+    "@graphql-tools/load": "^6.0.8",
+    "@graphqlmodules-test/module-a": "^1.0.0",
+    "graphql": "^15.1.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.9.5"
+  }
+}

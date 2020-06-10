@@ -1,0 +1,13 @@
+{
+  "name": "graphqlmodules-test",
+  "version": "1.0.0",
+  "description": "Test skeleton for graphql-modules",
+  "main": "./dist/index.js",
+  "author": "Gio Kettl",
+  "license": "MIT",
+  "workspaces": [
+    "moduleA",
+    "moduleB"
+  ],
+  "private": true
+}

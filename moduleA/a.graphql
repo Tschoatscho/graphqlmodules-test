@@ -1,0 +1,16 @@
+enum ContactType {
+  Email
+  Phone
+}
+
+type Email {
+  contactType: ContactType!
+  address: String!
+}
+
+type Phone {
+  contactType: ContactType!
+  number: String!
+}
+
+union Contact = Email | Phone
