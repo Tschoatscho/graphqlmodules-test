@@ -810,6 +810,15 @@
     fs-extra "9.0.1"
     tslib "~2.0.0"
 
+"@graphql-tools/load-files@^6.0.9":
+  version "6.0.9"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/load-files/-/load-files-6.0.9.tgz#1f93590e84a1c5df23aa03b085d98223e38f153f"
+  integrity sha512-KNiAM/X5ldfJcuHOthcGoosiwQgBW2tqjs8WnjDORCDdA5ZJ1XGxYGy04R30740LxxBQhCBZ1joQNJ5biFPWzA==
+  dependencies:
+    fs-extra "9.0.1"
+    globby "11.0.1"
+    unixify "1.0.0"
+
 "@graphql-tools/load@^6.0.0", "@graphql-tools/load@^6.0.8":
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/@graphql-tools/load/-/load-6.0.9.tgz#53aaac36485556abd5ce4cffeb290ecf68549825"
@@ -825,7 +834,7 @@
     unixify "1.0.0"
     valid-url "1.0.9"
 
-"@graphql-tools/merge@6.0.9", "@graphql-tools/merge@^6.0.0":
+"@graphql-tools/merge@6.0.9", "@graphql-tools/merge@^6.0.0", "@graphql-tools/merge@^6.0.9":
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/@graphql-tools/merge/-/merge-6.0.9.tgz#2432352512825b0639d55d379acd172055e30d32"
   integrity sha512-aOYgziSQnlubdaCFuPS5MNu9hmhMMfl65xvkZN1k5L/kP6rGN6SyjfeUEEzveOFgIYJbYxQEoxySD9gBAm8PiQ==

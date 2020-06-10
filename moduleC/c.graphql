@@ -1,0 +1,5 @@
+#import Customer from "../moduleB/b.graphql"
+
+type Order {
+  customer: Customer!
+}

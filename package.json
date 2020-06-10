@@ -7,7 +7,8 @@
   "license": "MIT",
   "workspaces": [
     "moduleA",
-    "moduleB"
+    "moduleB",
+    "moduleC"
   ],
   "private": true
 }
